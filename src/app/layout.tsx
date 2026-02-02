@@ -14,17 +14,17 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Deepika | Full Stack Developer & Software Engineer",
-  description: "Software Engineer specializing in Java, SQL, and Web Design. Explore my projects and technical expertise.",
+  description: "Portfolio of Deepika, a Software Engineer specializing in Java, SQL, and Web Design. Explore my projects in medical imaging and web development.",
   openGraph: {
     title: "Deepika | Full Stack Developer Portfolio",
-    description: "Software Engineer specializing in Java and Web Design. View my latest work.",
+    description: "Software Engineer specializing in Java and Web Design. Check out my professional journey and projects.",
     url: "https://www.deepikanellithirtha.in",
     siteName: "Deepika Portfolio",
     images: [
       {
         url: "https://i.postimg.cc/DzBC6JKs/1743681579358-1.jpg", 
-        width: 1080, // Giving it standard dimensions
-        height: 1350,
+        width: 1200,
+        height: 630,
         alt: "Deepika Portfolio Preview",
       },
     ],
