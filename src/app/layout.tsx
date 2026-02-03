@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+/*export const metadata: Metadata = {
   title: "Deepika | Full Stack Developer & Software Engineer",
   description: "Portfolio of Deepika, a Software Engineer specializing in Java, SQL, and Web Design. Explore my projects in medical imaging and web development.",
   openGraph: {
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
-};
-/*
+};*/
+
 export const metadata: Metadata = {
   title: "Deepika | Full Stack Developer & Software Engineer",
   description: "Portfolio of Deepika, a Software Engineer specializing in Java, SQL, and Web Design.",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     ],
     type: "website",
   },
-};*/
+};
 
 export default function RootLayout({
   children,
