@@ -12,10 +12,45 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+/*export const metadata: Metadata = {
+  title: "Deepika | Full Stack Developer & Software Engineer",
+  description: "Portfolio of Deepika, a Software Engineer specializing in Java, SQL, and Web Design. Explore my projects in medical imaging and web development.",
+  openGraph: {
+    title: "Deepika | Full Stack Developer Portfolio",
+    description: "Software Engineer specializing in Java and Web Design. Check out my professional journey and projects.",
+    url: "https://www.deepikanellithirtha.in",
+    siteName: "Deepika Portfolio",
+    images: [
+      {
+        url: "https://i.postimg.cc/DzBC6JKs/1743681579358-1.jpg", 
+        width: 1200,
+        height: 630,
+        alt: "Deepika Portfolio Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+};*/
+
 export const metadata: Metadata = {
   title: "Deepika | Full Stack Developer & Software Engineer",
-  description: "Software Engineer specializing in Java, SQL, and Full-Stack development. Explore my professional projects and technical expertise.",
-  // OpenGraph removed to allow platforms to crawl the site naturally
+  description: "Portfolio of Deepika, a Software Engineer specializing in Java, SQL, and Web Design.",
+  openGraph: {
+    title: "Deepika | Portfolio",
+    description: "Explore my projects and technical expertise.",
+    url: "https://www.deepikanellithirtha.in",
+    siteName: "Deepika Portfolio",
+    images: [
+      {
+        url: "/opengraph-image.png", // Next.js automatically finds this in the public folder
+        width: 1200,
+        height: 630,
+        alt: "Deepika Portfolio",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -25,7 +60,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         {children}
       </body>
     </html>
