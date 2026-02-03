@@ -106,7 +106,7 @@ const HeroSection = () => {
             <div className="w-[320px] h-[420px] md:w-[400px] md:h-[520px] bg-white p-4 rounded-[40px] shadow-[0_40px_80px_-15px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-[1.02]">
               <div className="w-full h-full rounded-[30px] overflow-hidden group">
                 <img 
-                  src="https://i.postimg.cc/DzBC6JKs/1743681579358-1.jpg" 
+                  src="https://i.postimg.cc/4xvTJ808/Deepika-Photo.jpg" 
                   alt="Deepika" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
                 />
