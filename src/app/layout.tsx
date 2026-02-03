@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Deepika | Full Stack Developer & Software Engineer",
-  description: "Portfolio of Deepika, a Software Engineer specializing in Java, SQL, and Web Design. Explore my projects in medical imaging and web development.",
+  description: "Software Engineer specializing in Java, SQL, and Full-Stack development. Explore my professional projects and technical expertise.",
   openGraph: {
     title: "Deepika | Full Stack Developer Portfolio",
-    description: "Software Engineer specializing in Java and Web Design. Check out my professional journey and projects.",
+    description: "Software Engineer specializing in Java and Web Design. View my latest projects and skills.",
     url: "https://www.deepikanellithirtha.in",
     siteName: "Deepika Portfolio",
     images: [
@@ -32,6 +32,7 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -39,9 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
