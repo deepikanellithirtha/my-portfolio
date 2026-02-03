@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-/*export const metadata: Metadata = {
+export const metadata: Metadata = {
   title: "Deepika | Full Stack Developer & Software Engineer",
   description: "Portfolio of Deepika, a Software Engineer specializing in Java, SQL, and Web Design. Explore my projects in medical imaging and web development.",
   openGraph: {
@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
     siteName: "Deepika Portfolio",
     images: [
       {
-        url: "https://i.postimg.cc/DzBC6JKs/1743681579358-1.jpg", 
+        url: "https://i.postimg.cc/4xvTJ808/Deepika-Photo.jpg", 
         width: 1200,
         height: 630,
         alt: "Deepika Portfolio Preview",
@@ -31,28 +31,7 @@ const geistMono = Geist_Mono({
     locale: "en_US",
     type: "website",
   },
-};*/
-
-export const metadata: Metadata = {
-  title: "Deepika | Full Stack Developer & Software Engineer",
-  description: "Portfolio of Deepika, a Software Engineer specializing in Java, SQL, and Web Design.",
-  openGraph: {
-    title: "Deepika | Portfolio",
-    description: "Explore my projects and technical expertise.",
-    url: "https://www.deepikanellithirtha.in",
-    siteName: "Deepika Portfolio",
-    images: [
-      {
-        url: "/opengraph-image.png", // Next.js automatically finds this in the public folder
-        width: 1200,
-        height: 630,
-        alt: "Deepika Portfolio",
-      },
-    ],
-    type: "website",
-  },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
